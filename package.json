@@ -1,0 +1,24 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "**\\_\\_dirname\r **\\_\\_filename\r require('./filename)\r module.exports = {obj}\r const os = require('os');\r const fs = require('fs');\r fs.readFile - fs.writeFile - fs.mkdir - fs.existsSync - fs.rmdir\r const http = require('http')\r 127.0.0.1 loopback ip address\r const server = http.createServer((req, res) => {})\r server.listen(3000, 'localhost', () => {})",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZahraBahmanpour/node-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZahraBahmanpour/node-tutorial/issues"
+  },
+  "homepage": "https://github.com/ZahraBahmanpour/node-tutorial#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "lodash": "^4.17.21"
+  }
+}
